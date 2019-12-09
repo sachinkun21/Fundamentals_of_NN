@@ -40,3 +40,17 @@ Upon adding bias to wT.x, we have wT.x  + b = w1x1+w2x2+....+wkxk+b. Hence,
  
 
 Upon applying the step function, if this cumulative sum of input is > 0, the output is 1/yes else 0/no.
+
+
+
+This is a simple exercise that will help you better understand how a perceptron works. 
+
+ 
+
+Consider the decision of whether to go to the sushi place being taken by a perceptron model. You have the following factors affecting the decision to go/not go: Distance, Cost and Company. These three variables are inputs to the perceptron. Suppose the inputs can be only 0/1 and the weights you assign to each variable add up to 1.
+
+
+For each of the inputs, the rules for deciding 1 and 0 are as follows - these are arbitrary mappings that you have decided to make your model simpler:
+TABLE
+
+Assume that the bias value is -0.7. The sushi place is 5 km away and 3 of your friends are ready to accompany you. Also, the cost for 2 is INR 2500.
