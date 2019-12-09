@@ -28,10 +28,12 @@ The input to a perceptron is the sum of weights multiplied with their respective
                       
                    
 Shortly, we will be talking about everything in terms of vectors and matrices, so let's start using the vector algebra lingo. Say w and x are vectors representing the weights and inputs as follows (note that, by default, a vector is assumed to be a column vector):
+
 ![Test Image 2](https://github.com/sachinkun21/Fundamentals_of_NN-/blob/master/Screenshot%202019-12-09%20at%203.48.20%20PM.png)
 
 A neat and concise way to represent the weighted sum of w  and  x is using the dot product of wT and  x . The transpose of w is wT = [w1w2..wk] - a row vector of size 1 x k. Taking the dot product of wT with x:
-![Test Image 3](image3.jpg)
+
+![Test Image 3](https://github.com/sachinkun21/Fundamentals_of_NN-/blob/master/Screenshot%202019-12-09%20at%203.56.50%20PM.png)
 
 
 Upon adding bias to wT.x, we have wT.x  + b = w1x1+w2x2+....+wkxk+b. Hence,
