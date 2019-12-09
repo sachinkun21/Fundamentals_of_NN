@@ -6,9 +6,7 @@ In this segment, you will study a simple device called the perceptron which was 
 Consider a sushi place you plan to visit on the coming Saturday. There are various factors that would affect this decision, such as:
 
 1. How far is it?
-
 2. How costly is it?
-
 3. How many people are accompanying you?
 
 You take a decision based on multiple such factors. Also, each decision factor has a different ‘weight’ - for example, the distance of the place might be more important than the number of people. 
