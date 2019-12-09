@@ -28,7 +28,7 @@ The input to a perceptron is the sum of weights multiplied with their respective
                       
                    
 Shortly, we will be talking about everything in terms of vectors and matrices, so let's start using the vector algebra lingo. Say w and x are vectors representing the weights and inputs as follows (note that, by default, a vector is assumed to be a column vector):
-![Test Image 2](Screenshot 2019-12-09 at 3.48.20 PM.png)
+![Test Image 2](`Screenshot 2019-12-09 at 3.48.20 PM.png`)
 
 A neat and concise way to represent the weighted sum of w  and  x is using the dot product of wT and  x . The transpose of w is wT = [w1w2..wk] - a row vector of size 1 x k. Taking the dot product of wT with x:
 ![Test Image 3](image3.jpg)
